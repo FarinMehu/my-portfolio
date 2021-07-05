@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0%;
 }
 
 h1{
@@ -10,13 +11,33 @@ h1{
     color: orange;
 }
 
-.container-flex{
+section{
     display: flex;
 }
 
+.bg-img{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.part-two{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
 .container{
-    padding-left: 50px;
+    padding-left: 8%;
     width: 50%;
+}
+
+.container-2{
+    padding-left: 8%;
+    width: 50%;
+}
+
+.container-2 img{
+    width: 100%;
 }
 
 .container img{
