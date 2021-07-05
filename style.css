@@ -65,6 +65,7 @@ section{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    margin-bottom: 15px;
 }
 
 .box-shadow{
@@ -86,4 +87,12 @@ section{
     border-left: 7px solid;
     border-image: linear-gradient(salmon, tomato);
     border-image-slice: 1;
+}
+
+footer{
+    margin-top: 200px;
+}
+
+footer p{
+    text-align: center;
 }
